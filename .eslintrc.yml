@@ -9,9 +9,7 @@ parserOptions:
     - ./tsconfig.json
 rules:
   semi: off
-  quotes:
-    - error
-    - double
+  # quotes: off
   "@typescript-eslint/semi":
     - error
     - always
